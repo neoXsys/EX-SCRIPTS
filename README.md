@@ -1,2 +1,2 @@
 # EX-SCRIPTS
-Example Scripts 
+BASHExample Shell Scripts for references.
