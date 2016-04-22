@@ -4,6 +4,7 @@
 # Author: "Hardik Dalwadi" <hardik.dalwadi@gmail.com>                 #
 # Version: 0.1      						      #
 # Info: It will generate random 3 dice from 1 to 6		      #
+# License: GPLv3  						      #
 #######################################################################
 
 ### Generating 3 Random numbers from 1 - 6, Resemble DICE ###
