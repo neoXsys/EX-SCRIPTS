@@ -7,6 +7,10 @@
 # License: GPLv3  						      #
 #######################################################################
 
+### Configurations ###
+DIR_LOC="/var/tmp/"
+F_NAME="/sic-bo_DATA.txt"
+
 ### Generating 3 Random numbers from 1 - 6, Resemble DICE ###
 DICE_1=$(shuf -i 1-6 -n 1 )
 DICE_2=$(shuf -i 1-6 -n 1 )
@@ -23,6 +27,6 @@ else
 	RES_ODD_OR_EVEN="ODD"
 fi
 
-echo "| $DICE_1 | $DICE_2 | $DICE_3 | Total: $DICE_TOTAL | Number Type: $RES_ODD_OR_EVEN | @ $(date)" | tee -a /var/tmp/Sic-bo_DATA.txt
+echo "| $DICE_1 | $DICE_2 | $DICE_3 | Total: $DICE_TOTAL | Number Type: $RES_ODD_OR_EVEN | @ $(uname  -n -r -v)" | tee -a $DIR_LOC/$F_NAME
 
 exit 0
