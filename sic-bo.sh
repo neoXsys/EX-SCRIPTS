@@ -27,6 +27,6 @@ else
 	RES_ODD_OR_EVEN="ODD"
 fi
 
-echo "| $DICE_1 | $DICE_2 | $DICE_3 | Total: $DICE_TOTAL | Number Type: $RES_ODD_OR_EVEN | @ $(uname  -n -r -v)" | tee -a $DIR_LOC/$F_NAME
+echo "| $DICE_1 | $DICE_2 | $DICE_3 | Total: $DICE_TOTAL | Number Type: $RES_ODD_OR_EVEN | $(date) | $(uname  -n)" | tee -a $DIR_LOC/$F_NAME
 
 exit 0
